@@ -1,0 +1,28 @@
+{
+	"_id": "9bb8d4450a0a7c4615999cbd3900099a",
+	"_rev": "2-25747e4a4fc305121d9d7c3fa6e8da37",
+	"type": "document",
+	"attributes": {
+		"test": "Hallo, Welt!"
+	},
+	"tags": [
+		"tag1",
+		"tag2"
+	],
+	"_revisions": {
+		"start": 2,
+		"ids": [
+			"25747e4a4fc305121d9d7c3fa6e8da37",
+			"0539313d9e61293d7f82d75e30f38afc"
+		]
+	},
+	"_attachments": {
+		"document": {
+			"content_type": "application/octet-stream",
+			"revpos": 1,
+			"digest": "md5-2Oj8otwPiW/Xy0ywAxuiSQ==",
+			"length": 5,
+			"stub": true
+		}
+	}
+}

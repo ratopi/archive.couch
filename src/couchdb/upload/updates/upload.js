@@ -19,8 +19,12 @@ function ( oldDoc, req )
 	var doc = {
 		"_id": req.uuid,
 		"type": "document",
+
+		"uploaded": new Date().getTime(),
+
 		"attributes": data.attributes,
 		"tags": data.tags,
+
 		"_attachments": {
 			"document": {
 				"data": data.document
