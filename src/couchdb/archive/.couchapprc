@@ -1,0 +1,7 @@
+{
+	"env" : {
+		"default" : {
+			"db" : "http://admin:admin@127.0.0.1:55984/archive"
+		}
+	}
+}

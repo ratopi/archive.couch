@@ -1,0 +1,5 @@
+{
+	"couchdb": {
+		"url": "http://127.0.0.1:55984/archive/_design/archive/"
+	}
+}
