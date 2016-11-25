@@ -28,7 +28,7 @@ const doit =
 					"document": buffer.toString( "base64" )
 				};
 
-				couchdb.post( "_update/upload", doc, log );
+				couchdb.post( "_design/upload/_update/upload", doc, log );
 			}
 		);
 	};
