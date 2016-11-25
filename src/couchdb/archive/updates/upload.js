@@ -20,6 +20,7 @@ function ( oldDoc, req )
 		"_id": req.uuid,
 		"type": "document",
 		"attributes": data.attributes,
+		"tags": data.tags,
 		"_attachments": {
 			"document": {
 				"data": data.document

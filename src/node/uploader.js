@@ -24,6 +24,7 @@ const doit =
 			{
 				var doc = {
 					"attributes": {},
+					"tags": [],
 					"document": buffer.toString( "base64" )
 				};
 
